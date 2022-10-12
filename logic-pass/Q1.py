@@ -6,3 +6,4 @@ def check_character(original_string, character_remove):
     print(new_string)
 
 check_character("Hello World","e")
+
