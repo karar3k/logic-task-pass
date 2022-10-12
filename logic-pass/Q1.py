@@ -1,10 +1,8 @@
-# Q1/Write a method that will remove any given character from a String?
+def check_character(original_string, character_remove):
+    new_string = ""
+    for character in original_string:
+        if character != character_remove:
+            new_string += character
+    print(new_string)
 
-original_string = "Hello World"
-character_remove = "e"
-new_string = ""
-
-for a in original_string:
-    if a != character_remove:
-        new_string += a
-print(new_string)
+check_character("Hello World","e")
